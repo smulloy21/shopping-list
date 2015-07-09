@@ -6,7 +6,7 @@ $("#groups input").keypress(function(e) {
 });
 $("#add-group").keypress(function(e) {
 	if (e.which == 13) {
-		$(".groups").append('<div class="group"><div class="title"><h2>' + $(this).val() + '</h2><i class="fa fa-times-circle"></i></div><input type="text" placeholder="+ item" /><ul></ul></div>');
+		$("#groups").append('<div class="group"><div class="title"><h2>' + $(this).val() + '</h2><i class="fa fa-times-circle"></i></div><input type="text" placeholder="+ item" /><ul></ul></div>');
 		$(this).val('');
 	};
 });
