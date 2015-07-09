@@ -16,7 +16,7 @@ $("#groups").on("click", "li i", function(event){
 $("#groups").on("click", ".title i", function(event){
 	$(this).parent().parent().remove();
 });
-$("#groups ul").on("click", "li", function(){
+$("#groups").on("click", "ul li", function(){
 	$(this).toggleClass("crossed-out");
 });
 $("#groups").on(".title click", function(event){
