@@ -52,6 +52,10 @@ body {
 	padding: 10px 10px;
 }
 
+.title:hover {
+	background-color: #FFF6BA;
+}
+
 .title > i {
 	margin-left: .5rem;
 	margin-right: .5rem;
@@ -80,6 +84,14 @@ body {
 	margin: .5rem 0 .5rem 1.5rem;
 	font-size: 1.5rem;
 	max-width: 70%;
+}
+
+.group .crossed-out p, .group .crossed-out h2 {
+	text-decoration: line-through;
+}
+
+.group ul li:hover {
+	background-color: #FFF6BA;
 }
 
 .group ul i {
